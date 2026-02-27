@@ -1,5 +1,4 @@
-# 🎵 BOTKIFY – ỨNG DỤNG NGHE NHẠC  
-# 🎵 BOTKIFY – MUSIC PLAYER APPLICATION  
+# 🎵 BOTKIFY – ỨNG DỤNG NGHE NHẠC – MUSIC PLAYER APPLICATION  
 
 ## 📌 Giới thiệu | Introduction
 
@@ -26,14 +25,17 @@
 ## 🏗 Cấu trúc chương trình | Project Structure
 
 ```
-TASK_2_BTL1_HK252-main
-├── .devcontainer/
+Botkify-Playlist-Linkedlist
 ├── .vscode/
+│   ├── launch.json
+│   ├── settings.json
+│   └── tasks.json
+│
 ├── src/
 │   ├── BotkifyLinkedList.h
-│   ├── main.h
-│   ├── Playlist.cpp
 │   ├── Playlist.h
+│   ├── Playlist.cpp
+│   ├── main.h
 │   └── utils.h
 │
 ├── tests/
@@ -41,11 +43,12 @@ TASK_2_BTL1_HK252-main
 │   ├── test_BotkifyLinkedList.cpp
 │   └── test_play.cpp
 │
+├── Assignment 1 - Spec - EN.pdf
+├── Assignment 1 - Spec - VI.pdf
 ├── .gitignore
 ├── main.cpp
 └── README.md
 ```
----
 
 ## 🎵 Chức năng chính | Main Features
 
