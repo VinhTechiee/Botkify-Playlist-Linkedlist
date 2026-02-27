@@ -1,28 +1,26 @@
-# 🎵 BOTKIFY – ỨNG DỤNG NGHE NHẠC – MUSIC PLAYER APPLICATION  
+# 🎵 BOTKIFY – MUSIC PLAYER SIMULATION APPLICATION  
 
-## 📌 Giới thiệu | Introduction
+## 📖 Project Overview
 
-**BotKify** là ứng dụng nghe nhạc mô phỏng được xây dựng nhằm áp dụng cấu trúc dữ liệu **Danh sách liên kết (Linked List)** vào quản lý playlist.
+**BotKify** is a simulated music player application developed to demonstrate the application of **linked list–based data structures** in playlist management.
 
-**BotKify** is a simulated music player application developed to apply the **Linked List** data structure in playlist management.
-
----
-
-## 🎯 Mục tiêu | Objectives
-
-- Áp dụng cấu trúc dữ liệu danh sách liên kết
-- Tối ưu độ phức tạp thuật toán
-- Quản lý và xử lý playlist hiệu quả
-- Rèn luyện kỹ năng lập trình C++
-
-- Apply linked list data structure
-- Optimize algorithm complexity
-- Efficiently manage and process playlists
-- Improve C++ programming skills
+The project focuses on designing and implementing a playlist system that supports efficient insertion, deletion, traversal, and advanced playback operations. It serves as an academic assignment aimed at strengthening understanding of data structures, algorithmic complexity, and modular C++ programming.
 
 ---
 
-## 🏗 Cấu trúc chương trình | Project Structure
+## 🎯 Project Objectives
+
+The primary objectives of this project are:
+
+- Apply linked list data structures in a practical application
+- Design efficient playlist management mechanisms
+- Analyze and optimize algorithmic time complexity
+- Strengthen problem-solving skills using C++
+- Practice modular design and testing-driven development
+
+---
+
+## 🏗 Project Structure
 
 ```
 Botkify-Playlist-Linkedlist
@@ -50,61 +48,41 @@ Botkify-Playlist-Linkedlist
 └── README.md
 ```
 
-## 🎵 Chức năng chính | Main Features
+## 🎵 Core Features
 
-### 🎶 Quản lý bài hát | Song Management
-- Thêm bài hát vào playlist  
-- Xóa bài hát khỏi playlist  
-- Lấy thông tin bài hát  
-
-- Add songs to playlist  
-- Remove songs from playlist  
-- Retrieve song information  
+### 🎶 Song Management
+- Insert songs into a playlist
+- Remove songs from a playlist
+- Retrieve song metadata and attributes
 
 ---
 
-### ▶ Điều khiển phát nhạc | Playback Control
-- Phát bài tiếp theo  
-- Phát bài trước  
-- Phát ngẫu nhiên theo tiêu chí thời lượng  
-
-- Play next song  
-- Play previous song  
-- Random play based on duration rule  
+### ▶ Playback Control
+- Play the next song
+- Play the previous song
+- Approximate (randomized) playback based on song duration constraints
 
 ---
 
-### 📊 Tính toán & So sánh | Scoring & Comparison
-- Tính tổng điểm playlist  
-- Tính điểm trung bình theo nhóm bài hát  
-- So sánh hai playlist  
-
-- Calculate total playlist score  
-- Calculate average score by group size  
-- Compare two playlists  
+### 📊 Scoring and Comparison
+- Compute the total score of a playlist
+- Calculate average scores for grouped songs
+- Compare two playlists based on defined scoring rules
 
 ---
 
-## ⚙ Cấu trúc dữ liệu sử dụng | Data Structure Used
+## ⚙ Data Structures and Algorithms Used
 
-- Circular Doubly Linked List  
-- Thuật toán Stack đơn điệu (Monotonic Stack)  
-- Sliding Window Technique  
-- Dynamic Programming (Approximate Play Mode)
+- **Circular Doubly Linked List** for playlist representation
+- **Monotonic Stack** for efficient score computation
+- **Sliding Window Technique** for grouped song evaluation
+- **Dynamic Programming** for approximate playback mode
+
+These techniques are used to ensure both correctness and performance efficiency.
 
 ---
 
-## 🚀 Cách chạy chương trình | How to Run
-
-### Compile
-```bash
-g++ main.cpp -o botkify
-```
-
-Bạn cần thêm phần Run và đóng block cho hoàn chỉnh:
-
-````md
-## 🚀 Cách chạy chương trình | How to Run
+## 🚀 How to Compile & Run
 
 ### Compile
 ```bash
@@ -116,7 +94,7 @@ g++ main.cpp -o botkify
 ./botkify
 ```
 
-## 📈 Độ phức tạp thuật toán | Algorithm Complexity
+## 📈 Algorithm Complexity
 
 | Function | Complexity |
 |----------|------------|
