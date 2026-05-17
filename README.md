@@ -7,7 +7,7 @@ The project demonstrates how **linked list–based data structures** can be appl
 
 The system models playlists using a **circular doubly linked list**, enabling efficient insertion, deletion, and bidirectional traversal of songs. Additional features such as playlist scoring, randomized playback, and grouped evaluation are implemented using algorithmic techniques including **monotonic stacks**, **sliding windows**, and **dynamic programming**.
 
-This project was developed as part of a **Data Structures and Algorithms coursework** to strengthen practical understanding of algorithm design, data structures, and modular programming.
+This project was developed as part of a Data Structures and Algorithms (CO2003) to strengthen practical understanding of algorithm design, data structures, and modular programming.
 
 ---
 
